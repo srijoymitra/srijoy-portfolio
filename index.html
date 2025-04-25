@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Srijoy Mitra | Electronics & ML Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      color: #333;
+      background-color: #f9f9f9;
+      scroll-behavior: smooth;
+    }
+    nav.navbar {
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.4rem;
+      color: #212529 !important;
+    }
+    .nav-link {
+      color: #555 !important;
+      font-weight: 500;
+    }
+    .nav-link:hover {
+      color: #000 !important;
+    }
+    .hero {
+      background: #ffffff;
+      padding: 100px 0 60px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #212529;
+    }
+    .hero p.lead {
+      font-size: 1.125rem;
+      color: #666;
+      margin-bottom: 1.5rem;
+    }
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      position: relative;
+      display: inline-block;
+    }
+    .section-title::after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 3px;
+      background: #007bff;
+      bottom: -6px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    section {
+      padding: 60px 0;
+    }
+    .card {
+      border: none;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+    }
+    .badge {
+      font-size: 0.875rem;
+      padding: 0.5em 0.75em;
+    }
+    .timeline-item {
+      position: relative;
+      padding-left: 2rem;
+      margin-bottom: 2rem;
+    }
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0.25rem;
+      width: 12px;
+      height: 12px;
+      background: #007bff;
+      border-radius: 50%;
+    }
+    footer {
+      background: #ffffff;
+      padding: 40px 0;
+      text-align: center;
+      font-size: 0.875rem;
+      color: #777;
+      border-top: 1px solid #eaeaea;
+    }
+    a.btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    a.btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">Srijoy Mitra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero" class="hero">
+    <div class="container">
+      <h1>Hi, I'm Srijoy Mitra</h1>
+      <p class="lead">Electronics Engineer | Machine Learning Enthusiast | IoT Innovator</p>
+      <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- About -->
+    <section id="about">
+      <h2 class="text-center section-title">About Me</h2>
+      <p class="text-center mx-auto" style="max-width: 700px;">
+        I’m a 3rd-year B.Tech ECE student at RCCIIT, specializing in embedded systems, machine learning, and IoT. My passion lies in designing intelligent solutions that integrate hardware and AI to address real-world challenges.
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 class="text-center section-title">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Face Recognition Attendance</h5>
+              <p class="card-text">OpenCV, MySQL & Python. Deployed and presented at IIT Indore.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Hand Gesture Recognition</h5>
+              <p class="card-text">Custom ML models developed during Prodigy Infotech internship.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h5 class="card-title">Smart Lighting System</h5>
+              <p class="card-text">TinyML on ESP32 for adaptive lighting control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2 class="text-center section-title">Skills</h2>
+      <div class="d-flex flex-wrap justify-content-center gap-2">
+        <span class="badge bg-secondary">Python</span>
+        <span class="badge bg-secondary">C++</span>
+        <span class="badge bg-secondary">OpenCV</span>
+        <span class="badge bg-secondary">MySQL</span>
+        <span class="badge bg-secondary">ESP32</span>
+        <span class="badge bg-secondary">TinyML</span>
+        <span class="badge bg-secondary">Embedded C</span>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <h2 class="text-center section-title">Experience</h2>
+      <div class="mx-auto" style="max-width:600px;">
+        <div class="timeline-item">
+          <h5>Intern - Prodigy Infotech <small class="text-muted">Mar 2025</small></h5>
+          <p>Developed hand gesture ML models and real-time computer vision applications.</p>
+        </div>
+        <div class="timeline-item">
+          <h5>Hackathon Winner - IIT Indore (NIFT CODERS) <small class="text-muted">Mar 2025</small></h5>
+          <p>Presented a face recognition attendance system.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="text-center mb-5">
+      <h2 class="section-title">Contact</h2>
+      <p>Let's connect!</p>
+      <a href="mailto:profantastic123@gmail.com" class="btn btn-primary mx-2"><i class="fas fa-envelope me-1"></i>Email</a>
+      <a href="https://github.com/srijoymitra" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-github me-1"></i>GitHub</a>
+      <a href="https://www.linkedin.com/in/srijoy-mitra-9b8529283/" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-linkedin me-1"></i>LinkedIn</a>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Srijoy Mitra. All rights reserved.
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
