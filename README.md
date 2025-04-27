@@ -4,7 +4,7 @@ Welcome to my personal portfolio website, built using **React.js** and deployed 
 
 ## 🚀 Live Demo
 
-Check out the live version here: [srijoymitra.vercel.app](https://srijoymitra.vercel.app)
+Check out the live version here: [srijoymitra.vercel.app](srijoy-portfolio-e32t.vercel.app)
 
 ## 🛠️ Tech Stack
 
